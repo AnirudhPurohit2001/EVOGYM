@@ -1,10 +1,12 @@
+import './index.css'
+
 
 function App() {
 
 
   return (
-    <div className='text-center bg-blue-500'>
-      app
+    <div className='bg-gray-20'>
+      <Navbar />
     </div>
   )
 }
