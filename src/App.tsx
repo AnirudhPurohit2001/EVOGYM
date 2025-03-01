@@ -2,6 +2,7 @@ import './index.css'
 import Navbar from '../src/scenes/Navbar'
 import { useEffect, useState } from 'react'
 import Home from './scenes/Home';
+import Benefits from './scenes/Benefits';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage} />
       <Home setSelectedPage={setSelectedPage} />
+      <Benefits setSelectedPage={setSelectedPage} />
     </div>
   )
 }
