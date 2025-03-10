@@ -1,8 +1,6 @@
 import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from "@heroicons/react/24/solid"
 import { motion } from "framer-motion";
 import HText from "../shared/HText";
-import Home from "./Home";
-import { ReactNode } from "react";
 import { BenefitType } from "../shared/types";
 import Benefit from "./Benefit";
 import BenefitPageGraphic from "../assets/BenefitsPageGraphic.png"
